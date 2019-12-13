@@ -87,7 +87,6 @@ Player.prototype.initialize = function() {
       }
       case 2: {
         const { x, y, z, w } = content;
-        console.log(content);
         entity.setLocalRotation(x, y, z, w);
         break;
       }
